@@ -1,0 +1,36 @@
+// AUTOMATICALLY GENERATED FILE. PLEASE DO NOT MODIFY IT MANUALLY
+//
+// PIO Unified Debugger
+//
+// Documentation: https://docs.platformio.org/page/plus/debugging.html
+// Configuration: https://docs.platformio.org/page/projectconf/section_env_debug.html
+
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "platformio-debug",
+            "request": "launch",
+            "name": "PIO Debug",
+            "executable": "d:/MARLIN LOBOMINI/touchscreen/BIGTREETECH-TouchScreenFirmware-master/.pio/build/BIGTREE_TFT24_V1_1/BIGTREE_TFT24_V1.1.27.elf",
+            "projectEnvName": "BIGTREE_TFT24_V1_1",
+            "toolchainBinDir": "C:/Users/event/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin",
+            "internalConsoleOptions": "openOnSessionStart",
+            "svdPath": "C:/Users/event/.platformio/platforms/ststm32/misc/svd/STM32F105xx.svd",
+            "preLaunchTask": {
+                "type": "PlatformIO",
+                "task": "Pre-Debug (BIGTREE_TFT24_V1_1)"
+            }
+        },
+        {
+            "type": "platformio-debug",
+            "request": "launch",
+            "name": "PIO Debug (skip Pre-Debug)",
+            "executable": "d:/MARLIN LOBOMINI/touchscreen/BIGTREETECH-TouchScreenFirmware-master/.pio/build/BIGTREE_TFT24_V1_1/BIGTREE_TFT24_V1.1.27.elf",
+            "projectEnvName": "BIGTREE_TFT24_V1_1",
+            "toolchainBinDir": "C:/Users/event/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin",
+            "internalConsoleOptions": "openOnSessionStart",
+            "svdPath": "C:/Users/event/.platformio/platforms/ststm32/misc/svd/STM32F105xx.svd"
+        }
+    ]
+}

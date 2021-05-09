@@ -1,0 +1,93 @@
+//
+// !!! WARNING !!! AUTO-GENERATED FILE!
+// PLEASE DO NOT MODIFY IT AND USE "platformio.ini":
+// https://docs.platformio.org/page/projectconf/section_env_build.html#build-flags
+//
+{
+    "configurations": [
+        {
+            "name": "PlatformIO",
+            "includePath": [
+                "d:/MARLIN LOBOMINI/touchscreen/BIGTREETECH-TouchScreenFirmware-master/include",
+                "d:/MARLIN LOBOMINI/touchscreen/BIGTREETECH-TouchScreenFirmware-master/TFT",
+                "d:/MARLIN LOBOMINI/touchscreen/BIGTREETECH-TouchScreenFirmware-master/TFT/src/User/Fatfs",
+                "d:/MARLIN LOBOMINI/touchscreen/BIGTREETECH-TouchScreenFirmware-master/TFT/src/User/Hal",
+                "d:/MARLIN LOBOMINI/touchscreen/BIGTREETECH-TouchScreenFirmware-master/TFT/src/User/Menu",
+                "d:/MARLIN LOBOMINI/touchscreen/BIGTREETECH-TouchScreenFirmware-master/TFT/src/User/Variants",
+                "d:/MARLIN LOBOMINI/touchscreen/BIGTREETECH-TouchScreenFirmware-master/TFT/src/User",
+                "d:/MARLIN LOBOMINI/touchscreen/BIGTREETECH-TouchScreenFirmware-master/TFT/src/User/API",
+                "d:/MARLIN LOBOMINI/touchscreen/BIGTREETECH-TouchScreenFirmware-master/TFT/src/User/API/UI",
+                "d:/MARLIN LOBOMINI/touchscreen/BIGTREETECH-TouchScreenFirmware-master/TFT/src/User/API/Gcode",
+                "d:/MARLIN LOBOMINI/touchscreen/BIGTREETECH-TouchScreenFirmware-master/TFT/src/User/API/Language",
+                "d:/MARLIN LOBOMINI/touchscreen/BIGTREETECH-TouchScreenFirmware-master/TFT/src/User/API/Vfs",
+                "d:/MARLIN LOBOMINI/touchscreen/BIGTREETECH-TouchScreenFirmware-master/TFT/src/User/Hal/STM32_USB_HOST_Library/Core/inc",
+                "d:/MARLIN LOBOMINI/touchscreen/BIGTREETECH-TouchScreenFirmware-master/TFT/src/User/Hal/STM32_USB_HOST_Library/Class/MSC/inc",
+                "d:/MARLIN LOBOMINI/touchscreen/BIGTREETECH-TouchScreenFirmware-master/TFT/src/User/Hal/STM32_USB_HOST_Library/Usr/inc",
+                "d:/MARLIN LOBOMINI/touchscreen/BIGTREETECH-TouchScreenFirmware-master/TFT/src/User/Hal/STM32_USB_OTG_Driver/inc",
+                "d:/MARLIN LOBOMINI/touchscreen/BIGTREETECH-TouchScreenFirmware-master/TFT/src/Libraries/cmsis/Core-CM3",
+                "d:/MARLIN LOBOMINI/touchscreen/BIGTREETECH-TouchScreenFirmware-master/TFT/src/Libraries/cmsis/stm32f10x",
+                "d:/MARLIN LOBOMINI/touchscreen/BIGTREETECH-TouchScreenFirmware-master/TFT/src/Libraries/fwlib/stm32f10x",
+                "d:/MARLIN LOBOMINI/touchscreen/BIGTREETECH-TouchScreenFirmware-master/TFT/src/Libraries/fwlib/stm32f10x/inc",
+                "d:/MARLIN LOBOMINI/touchscreen/BIGTREETECH-TouchScreenFirmware-master/TFT/src/User/Hal/stm32f10x",
+                "C:/Users/event/.platformio/packages/framework-cmsis/CMSIS/Core/Include",
+                "C:/Users/event/.platformio/packages/framework-cmsis-stm32f1/Include",
+                "C:/Users/event/.platformio/packages/tool-unity",
+                ""
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "path": [
+                    "d:/MARLIN LOBOMINI/touchscreen/BIGTREETECH-TouchScreenFirmware-master/include",
+                    "d:/MARLIN LOBOMINI/touchscreen/BIGTREETECH-TouchScreenFirmware-master/TFT",
+                    "d:/MARLIN LOBOMINI/touchscreen/BIGTREETECH-TouchScreenFirmware-master/TFT/src/User/Fatfs",
+                    "d:/MARLIN LOBOMINI/touchscreen/BIGTREETECH-TouchScreenFirmware-master/TFT/src/User/Hal",
+                    "d:/MARLIN LOBOMINI/touchscreen/BIGTREETECH-TouchScreenFirmware-master/TFT/src/User/Menu",
+                    "d:/MARLIN LOBOMINI/touchscreen/BIGTREETECH-TouchScreenFirmware-master/TFT/src/User/Variants",
+                    "d:/MARLIN LOBOMINI/touchscreen/BIGTREETECH-TouchScreenFirmware-master/TFT/src/User",
+                    "d:/MARLIN LOBOMINI/touchscreen/BIGTREETECH-TouchScreenFirmware-master/TFT/src/User/API",
+                    "d:/MARLIN LOBOMINI/touchscreen/BIGTREETECH-TouchScreenFirmware-master/TFT/src/User/API/UI",
+                    "d:/MARLIN LOBOMINI/touchscreen/BIGTREETECH-TouchScreenFirmware-master/TFT/src/User/API/Gcode",
+                    "d:/MARLIN LOBOMINI/touchscreen/BIGTREETECH-TouchScreenFirmware-master/TFT/src/User/API/Language",
+                    "d:/MARLIN LOBOMINI/touchscreen/BIGTREETECH-TouchScreenFirmware-master/TFT/src/User/API/Vfs",
+                    "d:/MARLIN LOBOMINI/touchscreen/BIGTREETECH-TouchScreenFirmware-master/TFT/src/User/Hal/STM32_USB_HOST_Library/Core/inc",
+                    "d:/MARLIN LOBOMINI/touchscreen/BIGTREETECH-TouchScreenFirmware-master/TFT/src/User/Hal/STM32_USB_HOST_Library/Class/MSC/inc",
+                    "d:/MARLIN LOBOMINI/touchscreen/BIGTREETECH-TouchScreenFirmware-master/TFT/src/User/Hal/STM32_USB_HOST_Library/Usr/inc",
+                    "d:/MARLIN LOBOMINI/touchscreen/BIGTREETECH-TouchScreenFirmware-master/TFT/src/User/Hal/STM32_USB_OTG_Driver/inc",
+                    "d:/MARLIN LOBOMINI/touchscreen/BIGTREETECH-TouchScreenFirmware-master/TFT/src/Libraries/cmsis/Core-CM3",
+                    "d:/MARLIN LOBOMINI/touchscreen/BIGTREETECH-TouchScreenFirmware-master/TFT/src/Libraries/cmsis/stm32f10x",
+                    "d:/MARLIN LOBOMINI/touchscreen/BIGTREETECH-TouchScreenFirmware-master/TFT/src/Libraries/fwlib/stm32f10x",
+                    "d:/MARLIN LOBOMINI/touchscreen/BIGTREETECH-TouchScreenFirmware-master/TFT/src/Libraries/fwlib/stm32f10x/inc",
+                    "d:/MARLIN LOBOMINI/touchscreen/BIGTREETECH-TouchScreenFirmware-master/TFT/src/User/Hal/stm32f10x",
+                    "C:/Users/event/.platformio/packages/framework-cmsis/CMSIS/Core/Include",
+                    "C:/Users/event/.platformio/packages/framework-cmsis-stm32f1/Include",
+                    "C:/Users/event/.platformio/packages/tool-unity",
+                    ""
+                ]
+            },
+            "defines": [
+                "PLATFORMIO=50101",
+                "STM32F105xC",
+                "USE_STDPERIPH_DRIVER=",
+                "SOFTWARE_VERSION=27",
+                "SOFTWARE_VERSION_SHORT=27",
+                "__STATIC_INLINE=",
+                "STM32F10X_CL=",
+                "HSE_VALUE=8000000ul",
+                "VECT_TAB_FLASH=0x08006000",
+                "RAM_SIZE=64",
+                "HARDWARE=BIGTREE_TFT24_V1.1",
+                "HARDWARE_SHORT=B24V11",
+                "TFT24_V1_1=",
+                "F_CPU=72000000L",
+                ""
+            ],
+            "compilerPath": "C:/Users/event/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/arm-none-eabi-gcc.exe",
+            "compilerArgs": [
+                "-mthumb",
+                "-mcpu=cortex-m3",
+                ""
+            ]
+        }
+    ],
+    "version": 4
+}
